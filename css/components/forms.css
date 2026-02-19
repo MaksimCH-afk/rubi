@@ -1,0 +1,228 @@
+/* Subscribe Section Component */
+.subscribe {
+  padding: 40px 0 80px 0;
+  background: var(--white);
+}
+
+.subscribe__container {
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subscribe__content {
+  background: var(--subscribe-bg);
+  border-radius: 10px;
+  padding: 60px 80px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe__title {
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--white);
+  margin: 0 0 20px 0;
+  font-family: var(--font-primary);
+  line-height: 1.2;
+}
+
+.subscribe__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--white);
+  opacity: 0.9;
+  margin: 0 0 40px 0;
+  font-family: var(--font-primary);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe__form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.subscribe__input-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe__input {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-family: var(--font-primary);
+  color: var(--text-primary);
+  background: var(--white);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.subscribe__input:focus {
+  border-color: var(--button-blue-light);
+  box-shadow: 0 0 0 3px rgba(47, 128, 237, 0.1);
+}
+
+.subscribe__input::placeholder {
+  color: rgba(26, 26, 26, 0.5);
+}
+
+.subscribe__input--error {
+  border-color: var(--error-red);
+}
+
+.subscribe__input--error:focus {
+  border-color: var(--error-red);
+  box-shadow: 0 0 0 3px rgba(255, 68, 68, 0.1);
+}
+
+.subscribe__error {
+  display: none;
+  color: var(--error-red);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  text-align: left;
+  font-family: var(--font-primary);
+}
+
+.subscribe__error--visible {
+  display: block;
+}
+
+.subscribe__button {
+  background: var(--button-blue-light);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  padding: 16px 36px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--font-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subscribe__button:hover {
+  background: var(--button-blue-light-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(47, 128, 237, 0.3);
+}
+
+.subscribe__button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(47, 128, 237, 0.2);
+}
+
+.subscribe__button:focus {
+  outline: 2px solid var(--button-blue-light);
+  outline-offset: 2px;
+}
+
+.subscribe__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Адаптивность */
+@media (max-width: 900px) {
+  .subscribe__form {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .subscribe__input-wrapper {
+    width: 100%;
+    flex: none;
+  }
+  
+  .subscribe__input {
+    width: 100%;
+  }
+  
+  .subscribe__button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscribe {
+    padding: 60px 0;
+  }
+  
+  .subscribe__content {
+    padding: 40px 30px;
+  }
+  
+  .subscribe__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .subscribe__description {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  
+  .subscribe__input {
+    padding: 14px 18px;
+    font-size: 14px;
+  }
+  
+  .subscribe__button {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe {
+    padding: 60px 0;
+  }
+  
+  .subscribe__content {
+    padding: 40px 20px;
+  }
+  
+  .subscribe__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .subscribe__description {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .subscribe__form {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .subscribe__input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+  
+  .subscribe__button {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}

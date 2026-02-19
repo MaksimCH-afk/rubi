@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "name": "RubyHome",
+    "lastModified": "2025-08-18T11:37:25Z"
+  },
+  "description": "Макет веб-сайта RubyHome - сайт недвижимости с секциями: Header, Hero, Popular Properties, Our Partners, Property Featured, Reviews, CTA, Footer, Leave Request Modal",
+  "sections": [
+    {
+      "name": "Header",
+      "id": "0:396",
+      "components": [
+        "Logo",
+        "Navigation: Home, Properties, About us, Reviews",
+        "Contact us button"
+      ]
+    },
+    {
+      "name": "Hero",
+      "id": "0:389",
+      "components": [
+        "Heading: Find the perfect place to stay with your family",
+        "Subheading text",
+        "Leave request button",
+        "Background image"
+      ]
+    },
+    {
+      "name": "Popular Properties",
+      "id": "0:170",
+      "components": [
+        "Section title",
+        "Property cards with images, titles, locations, specs (bedrooms, bathrooms, parking), prices"
+      ]
+    },
+    {
+      "name": "Our Partners",
+      "id": "0:379",
+      "components": [
+        "Section title: Our Partners",
+        "Partner logos/images"
+      ]
+    },
+    {
+      "name": "Property Featured",
+      "id": "0:98",
+      "components": [
+        "Section title",
+        "Description text",
+        "Feature cards: 100% Security, Free air conditioner, Flower garden, Swimming pool, Rental furniture, Parkers & movers"
+      ]
+    },
+    {
+      "name": "Reviews",
+      "id": "0:69",
+      "components": [
+        "Section title: Our valuable customer says",
+        "Review cards with quotes, author names, positions, avatars"
+      ]
+    },
+    {
+      "name": "CTA",
+      "id": "0:56",
+      "components": [
+        "Heading: Get listed your home as a owner",
+        "Description text",
+        "Email subscription form with Subscribe button"
+      ]
+    },
+    {
+      "name": "Footer",
+      "id": "0:6",
+      "components": [
+        "Copyright text: © 2025 RubyHome. All rights reserved"
+      ]
+    },
+    {
+      "name": "Leave Request Modal",
+      "id": "0:405",
+      "components": [
+        "Form with fields: Name, Phone, Email",
+        "I want to: Buy/Rent/Sell toggle buttons",
+        "Privacy Policy checkbox",
+        "Submit button",
+        "Close button"
+      ]
+    }
+  ],
+  "colors": {
+    "primary": "#2E6EFF",
+    "secondary": "#FE753F",
+    "accent": "#BF3448",
+    "background": "#FFFFFF",
+    "backgroundAlt": "#F9F9F9",
+    "text": "#030A1B",
+    "overlay": "rgba(0, 0, 0, 0.6)"
+  },
+  "fonts": {
+    "primary": "Poppins",
+    "secondary": "DM Sans"
+  },
+  "note": "Полные данные макета с детальной структурой сохранены в файле. Используйте их для верстки."
+}
+

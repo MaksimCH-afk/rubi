@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 15C5.45 15 5 15.45 5 16V18H19V16C19 15.45 18.55 15 18 15H6Z" fill="#030A1B"/>
+  <path d="M4 19V21H6V19H4Z" fill="#030A1B"/>
+  <path d="M18 19V21H20V19H18Z" fill="#030A1B"/>
+  <path d="M7 12H9V14H7V12Z" fill="#030A1B"/>
+  <path d="M15 12H17V14H15V12Z" fill="#030A1B"/>
+  <path d="M3 6H5V10H3V6Z" fill="#030A1B"/>
+  <path d="M19 6H21V10H19V6Z" fill="#030A1B"/>
+  <path d="M2 10H22V12H2V10Z" fill="#030A1B"/>
+  <circle cx="6" cy="8" r="1" fill="#030A1B"/>
+  <circle cx="18" cy="8" r="1" fill="#030A1B"/>
+</svg>
+
+
+
+

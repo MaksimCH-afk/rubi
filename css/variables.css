@@ -1,0 +1,39 @@
+/* CSS Variables - Цветовая схема на основе дизайна */
+:root {
+  /* Синие оттенки (используемые) */
+  --blue-primary: #4A90E2;
+  
+  /* Золотисто-жёлтые акценты (используемые) */
+  --gold-primary: #FFD700;
+  
+  /* Нейтральные цвета */
+  --white: #FFFFFF;
+  --gray-light: #F5F7FA;
+  --gray-medium: #E8ECF0;
+  --text-primary: #1A1A1A;
+  --text-secondary: rgba(26, 26, 26, 0.7);
+  --text-dark: #030A1B;
+  
+  /* Цвета для специфических элементов */
+  --button-blue: #2E6EFF;
+  --button-blue-hover: #1e5ae6;
+  --button-blue-light: #2F80ED;
+  --button-blue-light-hover: #1e6fd6;
+  --accent-orange: #FE753F;
+  --error-red: #ff4444;
+  --subscribe-bg: #433e89;
+  --modal-overlay: rgba(3, 10, 27, 0.5);
+  
+  /* Тени и эффекты */
+  --shadow-sm: 0 2px 8px rgba(30, 58, 95, 0.08);
+  --shadow-md: 0 4px 16px rgba(30, 58, 95, 0.12);
+  --shadow-lg: 0 8px 32px rgba(30, 58, 95, 0.16);
+  
+  /* Градиенты */
+  --gradient-blue: linear-gradient(180deg, #5BA3F5 0%, #4A90E2 50%, #3A7BC8 100%);
+  --gradient-gold: linear-gradient(135deg, #FFD700 0%, #F4C430 100%);
+  
+  /* Типографика */
+  --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-secondary: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
